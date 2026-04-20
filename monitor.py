@@ -90,7 +90,6 @@ def send_telegram(message):
     payload = json.dumps({
         "chat_id": TELEGRAM_CHAT_ID,
         "text": message,
-        "parse_mode": "HTML",
     }).encode("utf-8")
     req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
     try:
