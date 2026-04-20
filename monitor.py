@@ -14,7 +14,7 @@ from datetime import datetime
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 # URL de l'API Shopify du produit (format JSON caché, toujours dispo)
-PRODUCT_URL = "https://eu.store.bambulab.com/products/pla-matte-filament.json"
+PRODUCT_URL = "https://eu.store.bambulab.com/products/pla-matte.json"
 
 # Fichier qui mémorise l'état précédent (géré automatiquement)
 STATE_FILE = "state.json"
